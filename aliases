@@ -1,0 +1,16 @@
+# Unix
+alias tlf="tail -f"
+alias mkdir='mkdir -p'
+alias ...='../..'
+alias l='ls'
+alias ll='ls -al'
+alias lh='ls -Alh'
+
+# Bundler
+alias b="bundle"
+
+# Pretty print the path
+alias path="echo $PATH | tr -s ':' '\n'"
+
+# Include custom aliases
+[[ -f ~/.aliases.local ]] && source ~/.aliases.local
