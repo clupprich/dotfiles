@@ -111,6 +111,8 @@ let g:ctrlp_cmd = 'CtrlP'
 
 " Run commands that require an interactive shell
 nnoremap <Leader>r :RunInInteractiveShell<space>
+nnoremap <leader>. :CtrlPTag<cr>
+nnoremap <leader>p :CtrlP<cr>
 
 " configure syntastic syntax checking to check on open as well as save
 let g:syntastic_check_on_open=1
