@@ -23,6 +23,8 @@ Plugin 'vim-scripts/ctags.vim'
 Plugin 'vim-scripts/matchit.zip'
 Plugin 'vim-scripts/tComment'
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'rking/ag.vim'
+Plugin 'tpope/vim-vinegar'
 Plugin 'tpope/vim-rake'
 
 if filereadable(expand("~/.vimrc.bundles.local"))
